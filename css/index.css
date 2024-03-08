@@ -1,0 +1,17 @@
+section#products {
+  width: 100%;
+  padding: 1rem;
+  min-height: 85vh;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 1rem;
+}
+
+div.card {
+  width: 50%;
+  height: 25rem;
+  background-color: var(--color-secondary);
+  border-radius: 1rem;
+}
