@@ -1,3 +1,9 @@
+:root {
+    --color-primary: #03001B;
+    --color-secondary: #D1892B;
+    --transition-time: 0.3s;
+}
+
 #product img {
     width:50%;
 }
@@ -12,7 +18,7 @@
     padding: 2rem;
     width: 35%;
     text-align: justify;
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color: var(--color-secondary);;
     border-radius: 7px;
 }
 
@@ -32,11 +38,13 @@
     border:none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     font-size: 1.5rem;
-    transition: transform 0.3s ease;
+    transition:scale var(--transition-time) ease;
+    background-color:  var(--color-primary);
+    color: #fff;
 }
 
 #buy-button:hover{
-    transform: scale(1.05);
+   scale: 1.05;
 }
 
 #price-quantity{
@@ -68,9 +76,81 @@
 }
 
 .signal{
-    transition: transform 0.3s ease;
+    transition: scale var(--transition-time) ease;
 }
 
 .signal:hover{
-    transform: scale(1.25);
+   scale: 1.25;
+}
+
+#download-app{
+    margin-top: 5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color:  var(--color-secondary);
+}
+
+
+#phone-icon{
+    height: 2rem;
+    filter: invert();
+    width: auto;
+}
+
+#download-text{
+    display: flex;
+    align-items: center;    
+}
+
+#download-text p {
+    font-size: small;
+    width: 10rem;
+    text-align: center;
+}
+
+#google{
+    height: 3rem;
+}
+
+#badges{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.badge{
+    cursor: pointer;
+    transition:scale var(--transition-time) ease;
+}
+
+.badge:hover{
+    scale: 1.05;
+}
+
+footer{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer_list{
+    list-style: none;
+}
+
+.list_tittle{
+    font-weight: bolder;
+}
+
+.list{
+    cursor: pointer;
+    transition:scale var(--transition-time) ease;
+}
+
+.list:hover{
+    scale: 1.05;
 }
