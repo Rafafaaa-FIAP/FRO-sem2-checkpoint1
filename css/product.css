@@ -1,22 +1,10 @@
-:root {
-    --color-primary: #03001B;
-    --color-secondary: #D1892B;
-    --transition-time: 0.3s;
-}
-
-#product img {
-    width:50%;
-}
-
 #product{
-    display: flex;
-    justify-content: space-around;
     margin: 1rem 0;
+    display: flex;
 }
 
 #product-info{
     padding: 2rem;
-    width: 35%;
     text-align: justify;
     background-color: var(--color-secondary);;
     border-radius: 7px;
@@ -81,76 +69,4 @@
 
 .signal:hover{
    scale: 1.25;
-}
-
-#download-app{
-    margin-top: 5rem;
-    height: 3.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-color:  var(--color-secondary);
-}
-
-
-#phone-icon{
-    height: 2rem;
-    filter: invert();
-    width: auto;
-}
-
-#download-text{
-    display: flex;
-    align-items: center;    
-}
-
-#download-text p {
-    font-size: small;
-    width: 10rem;
-    text-align: center;
-}
-
-#google{
-    height: 3rem;
-}
-
-#badges{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.badge{
-    cursor: pointer;
-    transition:scale var(--transition-time) ease;
-}
-
-.badge:hover{
-    scale: 1.05;
-}
-
-footer{
-    display:flex;
-    width: 100%;
-    justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
-}
-
-.footer_list{
-    list-style: none;
-}
-
-.list_tittle{
-    font-weight: bolder;
-}
-
-.list{
-    cursor: pointer;
-    transition:scale var(--transition-time) ease;
-}
-
-.list:hover{
-    scale: 1.05;
 }
