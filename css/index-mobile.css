@@ -1,0 +1,10 @@
+@media (max-width:600px) {
+
+    section#products {
+        grid-template-columns: 1fr;
+    }
+
+    div.card{
+        width: 15rem;
+    }
+}
