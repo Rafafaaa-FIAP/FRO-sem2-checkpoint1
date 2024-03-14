@@ -1,10 +1,19 @@
-@media (max-width:600px) {
+@media (max-width: 600px) {
+
     nav {
-        padding: 1rem ;
+        padding: 1rem;
     }
 
     div#search {
         width: 55%;
+    }
+
+    div#search input {
+        font-size: 0.75rem;
+    }
+
+    div#search img {
+        padding: 0.5rem;
     }
 
     nav ul li:not(#nav-images) {
@@ -15,25 +24,25 @@
         gap: 1rem;
     }
 
-    #download-app {
+    div#footer-about {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    div#download-app {
         height: min-content;
         padding-top: 1rem;
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    #download-text {
+    div#download-text {
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    #download-text p {
+    div#download-text p {
         width: 100%;
-    }
-
-    footer {
-        flex-direction: column;
-        padding: 2rem;
-        gap: 1rem;
     }
 }

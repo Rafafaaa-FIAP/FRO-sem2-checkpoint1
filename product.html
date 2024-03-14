@@ -1,87 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/all.css"/>
-    <link rel="stylesheet" href="./css/all-mobile.css"/>
-    <link rel="stylesheet" href="./css/product.css"/>
-    <link rel="stylesheet" href="./css/product_mobile.css"/>
-    <link rel="stylesheet" href="./css/product_tablet.css"/>
-    <link rel="stylesheet" href="./css/product_desktop_mini.css"/>
-    <link rel="stylesheet" href="./css/product_desktop.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/all/styles.css" />
+  <link rel="stylesheet" href="./css/product/styles.css" />
 
-    <title>Produto</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <title>Produto</title>
 </head>
+
 <body>
-    <nav>
-        <img id="logo" src="./images/logo.png" alt="Logo" />
-        <div id="search">
-          <input type="text">
-          <img src="./images/search.png" alt="Buscar" />
+
+  <nav>
+    <img id="logo" src="./images/logo.png" alt="Logo" />
+    <div id="search">
+      <input type="text">
+      <img src="./images/search.png" alt="Buscar" />
+    </div>
+    <ul>
+      <li>Criar conta</li>
+      <li>Entrar</li>
+      <li id="nav-images">
+        <img src="./images/menu.png" alt="Menu" />
+        <img src="./images/cart.png" alt="Carrinho" />
+      </li>
+    </ul>
+  </nav>
+
+  <section id="product">
+    <img src="./images/product-example.jpg" alt="example-img">
+    <div id="product-info">
+      <h2>Creme</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea, animi sapiente necessitatibus nobis laborum
+        suscipit fugiat, hic iste, ullam corrupti aspernatur commodi quos explicabo? Iste sit consequuntur, repellendus
+        non est neque quibusdam, nihil harum voluptate nisi repellat asperiores optio quas expedita animi alias,
+        doloribus quidem nulla possimus eveniet esse. A, optio? Omnis, adipisci quis dolorum libero dolorem tenetur
+        consequuntur velit sed laborum facilis aspernatur officia quaerat! Tempora in, fuga eveniet deserunt adipisci
+        amet ipsum autem repellat impedit vel culpa enim dolorum quas corrupti expedita excepturi necessitatibus
+        reiciendis itaque, laboriosam cum earum pariatur ab fugiat vero. Similique autem aut natus?</p>
+      <div id="price-quantity">
+        <h2>R$ 250,00</h2>
+        <div id="quantity-selector">
+          <span id="minus" class="signal">-</span>
+          <span id="num">01</span>
+          <span id="plus" class="signal">+</span>
         </div>
-        <ul>
-          <li>Criar conta</li>
-          <li>Entrar</li>
-          <li id="nav-images">
-            <img src="./images/menu.png" alt="Menu" />
-            <img src="./images/cart.png" alt="Carrinho" />
-          </li>
-        </ul>
-    </nav> 
-    <section id="product">
-      <img src="./images/product-example.jpg" alt="example-img">
-      <div id="product-info">
-          <h2>CC CREAM - COMPLETE CORRETION</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea, animi sapiente necessitatibus nobis laborum suscipit fugiat, hic iste, ullam corrupti aspernatur commodi quos explicabo? Iste sit consequuntur, repellendus non est neque quibusdam, nihil harum voluptate nisi repellat asperiores optio quas expedita animi alias, doloribus quidem nulla possimus eveniet esse. A, optio? Omnis, adipisci quis dolorum libero dolorem tenetur consequuntur velit sed laborum facilis aspernatur officia quaerat! Tempora in, fuga eveniet deserunt adipisci amet ipsum autem repellat impedit vel culpa enim dolorum quas corrupti expedita excepturi necessitatibus reiciendis itaque, laboriosam cum earum pariatur ab fugiat vero. Similique autem aut natus?</p>
-          <div id="price-quantity"> 
-            <h2>R$ 250,00</h2>
-            <div id="quantity-selector">
-              <span id="minus" class="signal">-</span>
-              <span id="num">01</span>                
-              <span id="plus" class="signal">+</span>
-            </div>
-          </div>
-          <div id="button">
-            <button id="buy-button"> Comprar </button>
-          </div>
       </div>
-    </section>
-    
-    <section id="download-app">
+      <div id="button">
+        <button id="buy-button"> Comprar </button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="download-app">
       <div id="download-text">
         <img id="phone-icon" src="./images/phone.svg" alt="phone-icon">
         <p>Baixe nosso aplicativo, aproveite vantagens</p>
       </div>
-      <div id ="badges">
-        <img id ="google" class="badge" src="./images/google-play-badge.png" alt="play-store-badgge">
-        <img id ="apple" class="badge" src="./images/apple-store-badge.png" alt="apple-store-badgge">
+      <div id="badges">
+        <img id="google" class="badge" src="./images/google-play-badge.png" alt="play-store-badge">
+        <img id="apple" class="badge" src="./images/apple-store-badge.png" alt="apple-store-badge">
       </div>
-    </section>
+    </div>
 
-    <footer>
+    <div id="footer-about">
       <ul class="footer_list">
         <li class="list_tittle">Institucional</li>
-        <li class="list">Sobre nós</li>
-        <li class="list">Nossas lojas</li>
+        <li class="list_item">Sobre nós</li>
+        <li class="list_item">Nossas lojas</li>
       </ul>
 
       <ul class="footer_list">
         <li class="list_tittle">Minha Conta</li>
-        <li class="list">Criar nova conta</li>
-        <li class="list">Alterar dados pessoais</li>
-        <li class="list">Acompanhar um pedido</li>
+        <li class="list_item">Criar nova conta</li>
+        <li class="list_item">Alterar dados pessoais</li>
+        <li class="list_item">Acompanhar um pedido</li>
       </ul>
 
       <ul class="footer_list">
         <li class="list_tittle">Atendimento</li>
-        <li class="list">Central de Atendimento</li>
-        <li class="list">Troca ou devolução</li>
-        <li class="list">Reembolso</li>
+        <li class="list_item">Central de Atendimento</li>
+        <li class="list_item">Troca ou devolução</li>
+        <li class="list_item">Reembolso</li>
       </ul>
-    </footer>
-    <script src="./js/product.js"></script>
+    </div>
+  </footer>
+
+  <script src="./js/all.js"></script>
+  <script src="./js/product.js"></script>
 </body>
+
 </html>

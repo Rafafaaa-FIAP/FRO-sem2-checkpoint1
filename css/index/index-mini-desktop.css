@@ -1,0 +1,6 @@
+@media (min-width: 901px) and (max-width: 1200px) {
+  
+  section#products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

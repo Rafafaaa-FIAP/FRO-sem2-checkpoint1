@@ -1,0 +1,28 @@
+section#products {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+}
+
+div.card {
+  width: 100%;
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+div.card h3 {
+  font-size: 1.5rem;
+}
+
+div.card picture img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
