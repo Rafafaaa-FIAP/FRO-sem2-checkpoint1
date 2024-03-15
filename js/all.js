@@ -1,7 +1,7 @@
 
 document.querySelector('img#logo').addEventListener('click', () => {
-  if (window.location.pathname !== '/index.html') {
-    window.location = '/index.html'
+  if (!window.location.pathname.includes('/index.html')) {
+    window.location = '../index.html';
   }
 });
 

@@ -1,18 +1,5 @@
-@media (min-width: 1201px) {  
-    #product img {
-        width:40%;
-        height: auto;
-    }
-    
-    #product{
-        justify-content: space-evenly;
-    }
-
-    #product-info{
-        width:40%;
-
+@media (min-width: 1201px) {
+    div#product {
+        padding: 5rem 3rem;
     }
 }
-
-
-

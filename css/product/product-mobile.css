@@ -1,20 +1,26 @@
-@media (max-width:600px){
-    
-    #product img {
-        width: 85%;
-    }
-
-    #product{
+@media (max-width:600px) {
+    div#product {
+        padding: 0;
+        margin: 2rem;
+        border-radius: 1rem;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
-    }
-    
-    #product-info{
-        width: 85%;
+        gap: 0;
     }
 
+    div#product>div {
+        width: 100%;
+    }
+
+    div#product-photo img {
+        border-radius: 0;
+    }
+
+    div#product-info {
+        border-radius: 0;
+    }
+
+    div#price-quantity h2 {
+        font-size: 1.3rem;
+    }
 }
-
-
-
